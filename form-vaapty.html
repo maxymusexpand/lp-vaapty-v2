@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Vaapty - Standalone</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJZLVVX2');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- intl-tel-input CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">
+
+    <style>
+        :root {
+            --roxo-escuro: #150424;
+            --roxo-medio: #3f1c66;
+            --roxo-botao: #651c83;
+            --roxo-claro: #a237d7;
+            --cinza-form: #f5f5f5;
+            --texto-escuro: #161616;
+            --texto-preto: #13031f;
+            --texto-tabela: #0b0b0b;
+            --texto-legal: #3d3d3d;
+            --borda-input: #a7a7a7;
+            --branco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: var(--roxo-escuro);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Estilos idênticos à LP */
+        .contact-form {
+            max-width: 737px;
+            width: 100%;
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20.1px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 56px;
+            letter-spacing: -2.25px;
+            color: var(--roxo-escuro);
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            font-size: 28px;
+            font-weight: 300;
+            line-height: 36px;
+            letter-spacing: 0.35px;
+            color: var(--texto-legal);
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 29px;
+            letter-spacing: -0.87px;
+            color: var(--texto-tabela);
+            margin-bottom: 10px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group select,
+        .form-select {
+            width: 100%;
+            height: 47px;
+            background: var(--cinza-form);
+            border: 1px solid var(--borda-input);
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 18px;
+            color: var(--texto-escuro);
+        }
+
+        .form-group select {
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23161616' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            padding-right: 40px;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .radio-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+        .radio-label input[type="radio"] {
+            width: 17.516px;
+            height: 17.516px;
+            cursor: pointer;
+            box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .radio-label span {
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 29px;
+            letter-spacing: -0.87px;
+            color: var(--texto-tabela);
+        }
+
+        .btn-submit {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 1;
+            letter-spacing: -1.75px;
+            background: var(--roxo-escuro);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            height: 55px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .btn-submit:hover {
+            background: var(--roxo-medio);
+        }
+
+        .form-disclaimer {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: -0.48px;
+            color: var(--texto-legal);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* intl-tel-input fix */
+        .iti {
+            width: 100%;
+        }
+
+        .iti__country-list {
+            background: #fff !important;
+            color: #333 !important;
+            border-radius: 8px;
+        }
+
+        .iti__country-name,
+        .iti__dial-code {
+            color: #333 !important;
+        }
+
+        @media (max-width: 600px) {
+            .contact-form {
+                padding: 30px 20px;
+            }
+
+            .section-title {
+                font-size: 32px;
+                line-height: 1.2;
+            }
+
+            .form-group label,
+            .radio-label span {
+                font-size: 22px;
+            }
+
+            .btn-submit {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJZLVVX2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="contact-form" id="form-container">
+        <div class="form-header">
+            <h2 class="section-title">Essa Franquia foi feita para você.</h2>
+            <p class="section-subtitle">Preencha o formulário e receba a apresentação completa</p>
+        </div>
+
+        <form id="_form_7_" method="POST" action="https://maximuss.activehosted.com/proc.php">
+            <input type="hidden" name="u" value="7" />
+            <input type="hidden" name="f" value="7" />
+            <input type="hidden" name="s" />
+            <input type="hidden" name="c" value="0" />
+            <input type="hidden" name="m" value="0" />
+            <input type="hidden" name="act" value="sub" />
+            <input type="hidden" name="v" value="2" />
+            <input type="hidden" name="or" value="45323c76-7c2e-4398-85c3-5a7c4086e702" />
+
+            <div class="form-group">
+                <label for="fullname">Nome completo</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required />
+            </div>
+
+            <div class="form-group">
+                <label for="field_27">Quando você pretende assumir sua franquia?</label>
+                <select id="field_27" name="field[27]" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="Imediatamente">Imediatamente</option>
+                    <option value="Em até 30 dias">Em até 30 dias</option>
+                    <option value="Em até 60 dias">Em até 60 dias</option>
+                    <option value="Em até 90 dias">Em até 90 dias</option>
+                    <option value="Preciso de mais tempo">Preciso de mais tempo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Quanto você tem para investir?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="field[7]" value="De R$180 a R$249 mil" required>
+                        <span>De R$180 a R$249 mil</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="field[7]" value="De R$250 a R$349 mil">
+                        <span>De R$250 a R$349 mil</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="field[7]" value="+ de R$350 mil">
+                        <span>+ de R$350 mil</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Dados</button>
+
+            <p class="form-disclaimer">Ao tocar no botão, você aceita nossos Termos de Uso e Política de Privacidade,
+                incluindo cookies e envio de comunicações.</p>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    <script>
+        (function () {
+            const form = document.getElementById('_form_7_');
+            const phoneInput = document.getElementById('phone');
+            let iti;
+
+            iti = window.intlTelInput(phoneInput, {
+                loadUtils: () => import('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'),
+                separateDialCode: true,
+                initialCountry: 'auto',
+                geoIpLookup: (success) => {
+                    fetch('https://maximuss.activehosted.com/api/public/geo.php')
+                        .then(res => res.json())
+                        .then(data => success(data.country_code || 'BR'))
+                        .catch(() => success('BR'));
+                }
+            });
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                phoneInput.value = iti.getNumber();
+
+                const submitBtn = form.querySelector('.btn-submit');
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Enviando...';
+
+                const formData = new FormData(form);
+                const params = new URLSearchParams(formData);
+
+                const script = document.createElement('script');
+                script.src = `https://maximuss.activehosted.com/proc.php?${params.toString()}&jsonp=true`;
+                script.onerror = function () {
+                    alert('Erro no envio. Tente novamente.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Enviar Dados';
+                };
+                document.head.appendChild(script);
+            });
+
+            window._show_thank_you = function (id, message) {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({ 'event': 'form_lead', 'form_id': id });
+                document.getElementById('form-container').innerHTML = '<div style="text-align:center;padding:40px;"><h3>Enviado com Sucesso!</h3><p>Obrigado pelo seu interesse.</p></div>';
+            };
+        })();
+    </script>
+</body>
+
+</html>

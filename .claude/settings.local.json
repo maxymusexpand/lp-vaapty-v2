@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__figma__get_metadata",
+      "Bash(start \"\" \"C:\\\\Users\\\\User\\\\Desktop\\\\LP VAAPTY\\\\index.html\")",
+      "Bash(powershell -Command \"$content = Get-Content ''C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\C--Users-User-Desktop-LP-VAAPTY\\\\465f2da0-6181-4482-86e1-b91a8881ff1d\\\\tool-results\\\\mcp-figma-get_design_context-1770812044596.txt'' -Raw | ConvertFrom-Json; $content | Select-Object -First 1 | Select-Object -ExpandProperty text | Out-File -FilePath ''C:\\\\Users\\\\User\\\\Desktop\\\\LP VAAPTY\\\\figma-extracted.txt'' -Encoding UTF8\")",
+      "Bash(node -e:*)",
+      "mcp__figma__get_design_context"
+    ]
+  }
+}

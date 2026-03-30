@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJZLVVX2');</script>
+    <!-- End Google Tag Manager -->
+    <title>Vaapty - Franquia de Intermediação de Veículos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;900&family=Oswald:wght@300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">
+    <style>
+        /* Ajustes para o seletor de DDI no formulário da página */
+        .iti {
+            width: 100%;
+        }
+
+        .iti__country-list {
+            background-color: #ffffff !important;
+            color: #2d3748 !important;
+            z-index: 1000;
+        }
+
+        .iti__country-name,
+        .iti__dial-code,
+        .iti__selected-dial-code {
+            color: #2d3748 !important;
+        }
+
+        .iti__search-input {
+            color: #2d3748 !important;
+            background: #f8fafc !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJZLVVX2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="lp-container">
+
+
+
+        <!-- Dobra 01 - Hero -->
+        <section class="dobra dobra-01">
+            <img src="imgs/background-hero-section.webp" alt="Background" class="bg-image">
+            <div class="content">
+                <div class="hero-content">
+                    <img src="imgs/logo.webp" alt="Logo Vaapty" class="hero-logo-mobile">
+                    <h1 class="hero-title">Invista em um negócio automotivo sem estoque, com retorno previsível e
+                        modelo
+                        já validado no Brasil</h1>
+                    <p class="hero-subtitle">Um sistema de intermediação de veículos com margem de até 40%, payback
+                        estimado a partir de 6 meses e mais de 350 franqueados de sucesso, operando com o mesmo método.
+                    </p>
+                    <div class="hero-highlight">
+                        <p>Aqui, você não compra carros. Você intermedia negócios.</p>
+                    </div>
+                    <a href="#form" class="btn btn-primary">Solicite a apresentação completa</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dobra 02 - Destaque -->
+        <section class="dobra dobra-02">
+            <div class="content">
+                <h2 class="highlight-title">Seja franqueado da maior rede de intermediação de veículos do Brasil,
+                    líder
+                    no modelo C2B, com mais de R$ 1 bilhão movimentado e reconhecimento nacional.</h2>
+            </div>
+        </section>
+
+        <!-- Dobra 2.5 - Por que este modelo -->
+        <section class="dobra dobra-2-5">
+            <div class="content">
+                <h2 class="section-title">Por que este modelo reduz drasticamente o risco do investimento?</h2>
+                <p class="section-subtitle">A maioria das lojas de carro falham por três motivos:</p>
+
+                <div class="problems-grid">
+                    <div class="problem-box">
+                        <img src="imgs/check-icon.svg" alt="" class="box-icon">
+                        <p>Estoque parado</p>
+                    </div>
+                    <div class="problem-box">
+                        <img src="imgs/check-icon.svg" alt="" class="box-icon">
+                        <p>Baixa previsibilidade de vendas.</p>
+                    </div>
+                    <div class="problem-box">
+                        <img src="imgs/check-icon.svg" alt="" class="box-icon">
+                        <p>Alto capital imobilizado</p>
+                    </div>
+                </div>
+
+                <p class="solution-intro">A Vaapty nasce exatamente para eliminar esses riscos.</p>
+
+                <div class="solutions-grid">
+                    <div class="solution-box">
+                        <p>Sem compra de veículos</p>
+                    </div>
+                    <div class="solution-box">
+                        <p>Sem capital preso em ativos</p>
+                    </div>
+                    <div class="solution-box">
+                        <p>Sem pátio cheio</p>
+                    </div>
+                </div>
+
+                <p class="solution-outro">Você atua como intermediador, usando tecnologia, marca forte e uma rede
+                    ativa
+                    de compradores.</p>
+                <a href="#form" class="btn btn-secondary">Fale com um consultor</a>
+            </div>
+        </section>
+
+        <!-- Dobra 03 - Modelo que funciona -->
+        <section class="dobra dobra-03">
+            <div class="content">
+                <h2 class="section-title white">Um modelo que já funciona, em escala nacional.</h2>
+                <div class="stats-container">
+                    <div class="stats-image">
+                        <img src="imgs/DOBRA 04 - LP VAAPTY.png" alt="Vaapty em números">
+                    </div>
+                    <div class="stats-list">
+                        <div class="stat-item">
+                            <h3 class="big-number">+1 Bilhão</h3>
+                            <p>em veículos movimentados</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="big-number">+9 Milhões</h3>
+                            <p>faturados em uma única franquia</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="big-number">+350</h3>
+                            <p>franquias vendidas</p>
+                        </div>
+                        <img src="imgs/selos-abf-2024-2025.png" alt="Selos ABF 2024-2025" class="stats-badge">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separador -->
+        <div class="separator"></div>
+
+        <!-- Dobra 04 - Como funciona -->
+        <section class="dobra dobra-04">
+            <div class="content">
+                <h2 class="section-title">Como funciona a franquia<br>Vaapty na prática</h2>
+                <p class="section-subtitle">Um processo simples, replicável e orientado a giro:</p>
+
+                <div class="steps-grid">
+                    <div class="step-card" id="passo-1">
+                        <img src="imgs/check-icon.svg" alt="" class="step-circle">
+                        <div class="step-number">1</div>
+                        <h3>Captação do veículo</h3>
+                        <p>O cliente pessoa física procura sua unidade para vender o carro.</p>
+                    </div>
+                    <div class="step-card" id="passo-2">
+                        <img src="imgs/check-icon.svg" alt="" class="step-circle">
+                        <div class="step-number">2</div>
+                        <h3>Avaliação e leilão digital</h3>
+                        <p>O veículo é avaliado e inserido na plataforma Vaapty.</p>
+                    </div>
+                    <div class="step-card" id="passo-3">
+                        <img src="imgs/check-icon.svg" alt="" class="step-circle">
+                        <div class="step-number">3</div>
+                        <h3>Rede de compradores ativos</h3>
+                        <p>Mais de 30 mil lojistas e concessionárias dão lances em tempo real.</p>
+                    </div>
+                    <div class="step-card" id="passo-4">
+                        <img src="imgs/check-icon.svg" alt="" class="step-circle">
+                        <div class="step-number">4</div>
+                        <h3>Venda e comissão</h3>
+                        <p>O melhor lance vence e você ganha pela intermediação.</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <p class="cta-text">Simples, rápido e escalável.</p>
+                    <a href="#form" class="btn btn-large">Saiba mais sobre nosso modelo de negócio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dobra 05 - Por que investir -->
+        <section class="dobra dobra-05" id="diferenciais">
+            <div class="content">
+                <h2 class="section-title">Por que investir na Vaapty?</h2>
+                <p class="section-subtitle">Não é sobre "ter uma franquia". É sobre ter controle financeiro e
+                    previsibilidade.</p>
+
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-header">
+                            <div class="benefit-icon"></div>
+                            <h3>Sem estoque próprio</h3>
+                        </div>
+                        <p>Menos risco, menos custo fixo e mais liquidez.</p>
+                        <div class="benefit-line"></div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-header">
+                            <div class="benefit-icon"></div>
+                            <h3>Margem de até 40%</h3>
+                        </div>
+                        <p>Modelo de intermediação muito mais rentável que compra e revenda tradicional.</p>
+                        <div class="benefit-line"></div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-header">
+                            <div class="benefit-icon"></div>
+                            <h3>Payback previsível</h3>
+                        </div>
+                        <p>Retorno estimado a partir de 6 meses, com break-even entre 60 e 90 dias.</p>
+                        <div class="benefit-line"></div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-header">
+                            <div class="benefit-icon"></div>
+                            <h3>Marca consolidada</h3>
+                        </div>
+                        <p>Uma das franquias automotivas mais reconhecidas do país.</p>
+                        <div class="benefit-line"></div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-header">
+                            <div class="benefit-icon"></div>
+                            <h3>Investimento acessível</h3>
+                        </div>
+                        <p>A partir de R$180 mil, com planos flexíveis.</p>
+                        <div class="benefit-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separador -->
+        <div class="separator"></div>
+
+        <!-- Dobra 06 - Projeção de faturamento -->
+        <section class="dobra dobra-06" id="projecao">
+            <div class="content projection-content">
+                <div class="projection-left">
+                    <h2 class="section-title">Projeção de faturamento realista</h2>
+                    <p class="projection-text">Aqui você fatura desde o primeiro dia, pois não depende de estoque ou
+                        ciclos longos.</p>
+                </div>
+                <div class="projection-right">
+                    <div class="projection-stat">
+                        <h3>R$ 179 mil</h3>
+                        <p>De Média de Investimento Inicial</p>
+                    </div>
+                    <div class="projection-stat">
+                        <h3>Royalties Fixos</h3>
+                        <p>por Transação</p>
+                    </div>
+                    <div class="projection-stat">
+                        <h3>60 a 90 dias</h3>
+                        <p>De Equilíbrio Operacional</p>
+                    </div>
+                    <div class="projection-stat">
+                        <h3>R$ 3 milhões</h3>
+                        <p>De Potencial de Faturamento anual</p>
+                    </div>
+                    <div class="projection-stat">
+                        <h3>20% a 40%</h3>
+                        <p>De Lucro Líquido Estimado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <a href="#form" class="btn btn-secondary projection-btn">Entenda como funciona</a>
+            </div>
+        </section>
+
+        <!-- Dobra 07 - Comparação -->
+        <section class="dobra dobra-07">
+            <div class="content">
+                <h2 class="section-title white center">Você não compra uma marca. Você entra em um sistema.</h2>
+                <p class="section-subtitle white center">A Vaapty atua de forma contínua na operação do franqueado.
+                </p>
+
+                <!-- Tabela de comparação responsiva -->
+                <div class="comparison-table" id="tabela-comparativa">
+                    <div class="comparison-header">
+                        <div class="col">Recursos</div>
+                        <div class="col">Vaapty</div>
+                        <div class="col">Concorrência</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Suporte Contínuo Especializado</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Capacitação de Equipe</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Software de Gestão Integrado</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/not-check-icon.svg" alt="Cross" class="cross-icon"></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Reuniões de Performance</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/not-check-icon.svg" alt="Cross" class="cross-icon"></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Estratégias Avançadas de Vendas</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/not-check-icon.svg" alt="Cross" class="cross-icon"></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="col">Relatórios de Vendas</div>
+                        <div class="col"><img src="imgs/check-icon.svg" alt="Check" class="check-icon"></div>
+                        <div class="col"><img src="imgs/not-check-icon.svg" alt="Cross" class="cross-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dobra 08 - Depoimentos -->
+        <section class="dobra dobra-08">
+            <div class="content">
+                <h2 class="section-title white center">Depoimentos de clientes reais:</h2>
+                <p class="section-subtitle white center">O que nossos Franqueados dizem sobre a Vaapty.</p>
+
+                <div class="testimonials-grid">
+                    <!-- Placeholder - adicione depoimentos reais aqui -->
+                    <div class="testimonial-card">
+                        <p>"Depoimento 1"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Depoimento 2"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Depoimento 3"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Depoimento 4"</p>
+                    </div>
+                </div>
+
+                <a href="#form" class="btn btn-large">Quero ser um franqueado de sucesso</a>
+            </div>
+        </section>
+
+        <!-- Dobra 09 - Vaapty na Mídia -->
+        <section class="dobra dobra-09">
+            <div class="content">
+                <h2 class="section-title center">Vaapty na Mídia</h2>
+
+                <div class="media-grid">
+                    <div class="media-card">
+                        <div class="media-logo">
+                            <img src="imgs/selo-exame.png" alt="Exame">
+                        </div>
+                        <p>"Depois de quebrar, eles criaram uma "imobiliária de carros" que vende veículos em 40
+                            minutos."</p>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-logo">
+                            <img src="imgs/selo-abf.png" alt="ABF - Associação Brasileira de Franchising">
+                        </div>
+                        <p>"Vaapty inova no mercado de franquias com modelo C2B e movimenta 1 bi com veículos
+                            usados"
+                        </p>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-logo">
+                            <img src="imgs/selo-estadao.png" alt="Estadão">
+                        </div>
+                        <p>"Eles criaram um negócio disruptivo no mercado de seminovos e mira nas fintechs para
+                            faturar
+                            R$1.8 bi em 2025"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dobra 10 - Última oportunidade -->
+        <section class="dobra dobra-10" id="secao-oportunidade">
+            <div class="content">
+                <div class="opportunity-map-wrapper">
+                    <img src="imgs/MOBILE-MAPA-BRASIL.png" alt="Mapa do Brasil" class="opportunity-map-desktop">
+                </div>
+                <div class="opportunity-content">
+                    <h2 class="section-title">Pode ser a sua última oportunidade</h2>
+                    <p class="opportunity-subtitle">As condições de expansão são limitadas por região para proteger
+                        a
+                        rentabilidade dos franqueados.</p>
+
+                    <img src="imgs/MOBILE-MAPA-BRASIL.png" alt="Mapa do Brasil" class="bg-image-mobile">
+
+                    <div class="checklist">
+                        <p class="checklist-title">Se você busca:</p>
+                        <div class="checklist-item">
+                            <div class="check-box"></div>
+                            <span>baixo risco operacional</span>
+                        </div>
+                        <div class="checklist-item">
+                            <div class="check-box"></div>
+                            <span>previsibilidade financeira</span>
+                        </div>
+                        <div class="checklist-item">
+                            <div class="check-box"></div>
+                            <span>escala com suporte real</span>
+                        </div>
+                    </div>
+
+                    <a href="#form" class="btn btn-secondary">Quero mais informações</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dobra 11 - Formulário -->
+        <section id="form" class="dobra dobra-11">
+            <div class="content">
+                <h2 class="section-title center">Essa Franquia foi feita para você.</h2>
+                <p class="section-subtitle center">Preencha o formulário e receba a apresentação completa</p>
+
+                <!-- Formulário Active Campaign com design customizado -->
+                <form method="POST" action="https://maximuss.activehosted.com/proc.php" id="_form_7_"
+                    class="contact-form" novalidate>
+                    <input type="hidden" name="u" value="7" />
+                    <input type="hidden" name="f" value="7" />
+                    <input type="hidden" name="s" />
+                    <input type="hidden" name="c" value="0" />
+                    <input type="hidden" name="m" value="0" />
+                    <input type="hidden" name="act" value="sub" />
+                    <input type="hidden" name="v" value="2" />
+                    <input type="hidden" name="or" value="45323c76-7c2e-4398-85c3-5a7c4086e702" />
+
+                    <div class="form-group">
+                        <label for="fullname">Nome completo</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="field_27">Quando você pretende assumir sua franquia?</label>
+                        <select id="field_27" name="field[27]" required class="form-select">
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="Imediatamente">Imediatamente</option>
+                            <option value="Em até 30 dias">Em até 30 dias</option>
+                            <option value="Em até 60 dias">Em até 60 dias</option>
+                            <option value="Em até 90 dias">Em até 90 dias</option>
+                            <option value="Preciso de mais tempo">Preciso de mais tempo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Quanto você tem para investir?</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="field[7]" value="De R$180 a R$249 mil" required>
+                                <span>De R$180 a R$249 mil</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="field[7]" value="De R$250 a R$349 mil">
+                                <span>De R$250 a R$349 mil</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="field[7]" value="+ de R$350 mil">
+                                <span>+ de R$350 mil</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Campos hidden para UTM -->
+                    <input type="hidden" name="field[2]" value="" />
+                    <input type="hidden" name="field[3]" value="" />
+                    <input type="hidden" name="field[4]" value="" />
+                    <input type="hidden" name="field[5]" value="" />
+                    <input type="hidden" name="field[6]" value="" />
+
+                    <button type="submit" class="btn btn-submit">Enviar Dados</button>
+
+                    <p class="form-disclaimer">Ao tocar no botão, você aceita nossos Termos de Uso e Política de
+                        Privacidade, incluindo cookies e envio de comunicações.</p>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Scripts do Active Campaign -->
+    <script>
+        (function () {
+            var form = document.getElementById('_form_7_');
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Atualizar o número de telefone com o DDI antes de serializar
+                if (window.formIti) {
+                    var phoneInput = document.querySelector("#phone");
+                    if (phoneInput) {
+                        phoneInput.value = window.formIti.getNumber();
+                    }
+                }
+
+                // Serializar dados do formulário
+                var formData = new FormData(form);
+                var serialized = new URLSearchParams(formData).toString();
+
+                // Desabilitar botão de submit
+                var submitBtn = form.querySelector('.btn-submit');
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Enviando...';
+
+                // Enviar via JSONP para o Active Campaign
+                var script = document.createElement('script');
+                script.src = 'https://maximuss.activehosted.com/proc.php?' + serialized + '&jsonp=true';
+                script.onerror = function () {
+                    alert('Erro ao enviar formulário. Tente novamente.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Enviar Dados';
+                };
+                document.head.appendChild(script);
+            });
+
+            // Funções callback do Active Campaign
+            window._show_thank_you = function (id, message) {
+                // Disparar evento de conversão apenas no sucesso
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    'event': 'form_lead',
+                    'form_id': id
+                });
+
+                form.innerHTML = '<div style="text-align: center; padding: 40px;"><h3 style="color: var(--roxo-claro); margin-bottom: 20px;">Obrigado!</h3><p style="font-size: 18px;">Suas informações foram enviadas com sucesso. Em breve entraremos em contato.</p></div>';
+            };
+
+            window._show_error = function (id, message) {
+                alert(message || 'Erro ao enviar formulário. Tente novamente.');
+                var submitBtn = form.querySelector('.btn-submit');
+                if (submitBtn) {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Enviar Dados';
+                }
+            };
+        })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    <script>
+        (function () {
+            var inputPhone = document.querySelector("#phone");
+            if (inputPhone) {
+                window.formIti = window.intlTelInput(inputPhone, {
+                    loadUtils: () => import('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'),
+                    separateDialCode: true,
+                    initialCountry: 'auto',
+                    geoIpLookup: (success) => {
+                        fetch('https://maximuss.activehosted.com/api/public/geo.php')
+                            .then((res) => res.json())
+                            .then((data) => success(data.country_code || 'BR'))
+                            .catch(() => success('BR'));
+                    }
+                });
+            }
+        })();
+    </script>
+    </div>
+    <script type="text/javascript" async
+        src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/2c4a55c2-5c90-4573-b030-af38337fc907-loader.js"></script>
+</body>
+
+</html>

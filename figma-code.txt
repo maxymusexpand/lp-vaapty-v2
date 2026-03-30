@@ -1,0 +1,905 @@
+const imgBg = "https://www.figma.com/api/mcp/asset/dc79d134-ef69-4ed3-9877-57ccd14005ef";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/c3c60711-ce61-43cf-8fa5-1b8d11f99f75";
+const imgRectangle2 = "https://www.figma.com/api/mcp/asset/4b0287bc-1b36-4365-b660-f233f56342c6";
+const imgRectangle9 = "https://www.figma.com/api/mcp/asset/7c47a11e-a0c4-4053-8c7a-b43bfc7c88d5";
+const imgRectangle10 = "https://www.figma.com/api/mcp/asset/b167102c-8b1e-4a12-bb55-2594b148a78d";
+const imgRectangle3 = "https://www.figma.com/api/mcp/asset/a438843d-45fc-47ee-b07b-61b57e0efe6b";
+const imgRectangle4 = "https://www.figma.com/api/mcp/asset/9dceda52-f247-4092-8c4b-95faf6e2cdfe";
+const imgRectangle5 = "https://www.figma.com/api/mcp/asset/83514324-9e76-4b84-af5b-378c76f4e206";
+const imgBg1 = "https://www.figma.com/api/mcp/asset/bec6d751-6301-4f54-b233-6b86c1b3f8a2";
+const imgRectangle6 = "https://www.figma.com/api/mcp/asset/531ce8df-558c-4595-adec-fdaa5d23a08c";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/9edebcbf-c93f-488b-8a7c-d5d7f99d4220";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/7d62fe60-4549-4a54-89cb-b89ca4e08003";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/d4cc0186-efd3-45d8-9304-70451a26c2d4";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/a093010d-5339-4d90-85b8-07339836bc5a";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/235a63f8-2483-4382-ad32-941052092417";
+const imgLine2 = "https://www.figma.com/api/mcp/asset/4ad5bfae-c751-4736-9864-dfe38fbdc887";
+
+export default function Lp() {
+  return (
+    <div className="relative size-full" data-name="LP" data-node-id="12:3">
+      <div className="absolute h-[800px] left-[639px] top-0 w-[1921px]" data-name="Dobra 01" data-node-id="12:14">
+        <div className="absolute h-[800px] left-[-639px] top-0 w-[2560px]" data-name="BG" data-node-id="12:2">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBg} />
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[23px] items-start left-[641px] overflow-clip top-[130px] w-[641px]" data-node-id="17:15">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="14:4">
+            <div className="content-stretch flex flex-col gap-[23px] items-start relative shrink-0 w-full" data-name="Título" data-node-id="12:13">
+              <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[56px] relative shrink-0 text-[45px] text-white tracking-[-2.25px] whitespace-nowrap" data-node-id="12:11">
+                <p className="mb-0">{`Invista em um negócio automotivo `}</p>
+                <p className="mb-0">{`sem estoque, com retorno previsível `}</p>
+                <p>e modelo já validado no Brasil</p>
+              </div>
+              <div className="font-['Oswald:Light',sans-serif] font-['Roboto_Condensed:Light',sans-serif] font-light leading-[0] relative shrink-0 text-[35px] text-white tracking-[0.35px] whitespace-nowrap" data-node-id="12:12">
+                <p className="leading-[42px] mb-0">{`Um sistema de intermediação de veículos `}</p>
+                <p className="mb-0">
+                  <span className="leading-[42px]">com mar</span>
+                  <span className="leading-[42px] tracking-[0.192px]">g</span>
+                  <span className="leading-[42px]">{`em de até 40%, payback estimado `}</span>
+                </p>
+                <p className="leading-[42px] mb-0">{`em até 6 meses e mais de 350 franqueados `}</p>
+                <p className="leading-[42px]">de sucesso, operando com o mesmo método.</p>
+              </div>
+              <div className="content-stretch flex h-[77px] items-center overflow-clip relative shrink-0 w-[696px]" data-node-id="14:14">
+                <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[40.18px] relative shrink-0 text-[30px] text-white tracking-[-0.9px] whitespace-nowrap" data-node-id="14:12">
+                  <p className="mb-0">{`Aqui, você não compra carros. `}</p>
+                  <p>Você intermedia negócios.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#f2f2f2] content-stretch flex h-[58px] items-center justify-center px-[10px] relative rounded-[10px] shrink-0 w-[458px]" data-name="Botão" data-node-id="14:3">
+            <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[0px] relative shrink-0 text-[#13031f] text-[32px] text-center tracking-[-0.96px]" data-node-id="14:2">
+              Solicite a apresentação completa
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[234px] left-[calc(50%-1px)] top-[820px] w-[1280px]" data-name="Dobra 2" data-node-id="14:5">
+        <div className="absolute bg-white h-[254px] left-[-639px] top-0 w-[2560px]" data-name="BG" data-node-id="18:52" />
+        <div className="absolute content-stretch flex flex-col h-[234px] items-center justify-center left-0 top-0 w-[1280px]" data-node-id="14:6">
+          <div className="content-stretch flex flex-col h-[254px] items-center justify-center relative shrink-0 w-full" data-name="Título" data-node-id="14:7">
+            <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[50px] relative shrink-0 text-[#161616] text-[40px] text-center tracking-[-2px] whitespace-nowrap" data-node-id="14:8">
+              <p className="mb-0">{`Seja franqueado da maior rede de intermediação `}</p>
+              <p className="mb-0">{`de veículos do Brasil, líder no modelo C2B, com mais `}</p>
+              <p>de R$ 1 bilhão movimentado e reconhecimento nacional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[800px] left-1/2 top-[1054px] w-[1280px]" data-name="Dobra 2.5" data-node-id="18:2">
+        <div className="absolute bg-white h-[802px] left-[-639px] top-[-2px] w-[2560px]" data-name="BG" data-node-id="190:250" />
+        <div className="absolute content-stretch flex flex-col gap-[40px] h-[800px] items-center justify-center left-0 top-[-15px] w-[1282px]" data-name="Dobra 2.5" data-node-id="65:46">
+          <div className="content-stretch flex flex-col gap-[36px] items-center relative shrink-0 w-full" data-node-id="120:41">
+            <div className="content-stretch flex flex-col gap-[20px] items-center px-[352px] relative shrink-0 text-[#161616] text-center w-full" data-name="Título" data-node-id="18:4">
+              <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[43.271px] relative shrink-0 text-[32.924px] tracking-[-1.6462px] whitespace-nowrap" data-node-id="18:5">
+                <p className="mb-0">{`Por que este modelo reduz drasticamente `}</p>
+                <p>o risco do investimento?</p>
+              </div>
+              <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[37.294px] relative shrink-0 text-[31.042px] tracking-[0.3104px]" data-node-id="21:3">
+                A maioria das lojas de carro falham por três motivos:
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[50px] items-center justify-center relative rounded-[22.809px] shrink-0" data-node-id="46:23">
+              <div className="border border-[#ea4447] border-solid content-stretch flex h-[87.482px] items-center justify-center relative rounded-[5px] shrink-0 w-[213.532px]" data-node-id="48:25">
+                <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[25.85px] relative shrink-0 text-[#161616] text-[25.09px] text-center tracking-[-1.2545px]" data-node-id="41:15">{` Estoque parado`}</p>
+              </div>
+              <div className="border border-[#ea4447] border-solid content-stretch flex h-[87.434px] items-center justify-center relative rounded-[5px] shrink-0 w-[214.403px]" data-node-id="48:29">
+                <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[25.85px] relative shrink-0 text-[#161616] text-[25.09px] text-center tracking-[-1.2545px] whitespace-nowrap" data-node-id="41:20">
+                  <p className="mb-0">{`Baixa previsibilidade `}</p>
+                  <p>de vendas.</p>
+                </div>
+              </div>
+              <div className="border border-[#ea4447] border-solid content-stretch flex h-[87px] items-center justify-center relative rounded-[5px] shrink-0 w-[224px]" data-node-id="48:28">
+                <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#161616] text-[25.09px] text-center tracking-[-1.2545px] whitespace-nowrap" data-node-id="41:19">
+                  <p className="leading-[25.85px]">Alto capital imobilizado</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="font-['Road_Rage:Regular',sans-serif] h-[32.923px] leading-[0] not-italic relative shrink-0 text-[#161616] text-[31.042px] text-center tracking-[0.3104px] w-[1204.059px] whitespace-pre-wrap" data-node-id="48:30">
+            <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[37.627px]">{`A `}</span>
+            <span className="font-['Roboto_Condensed:Bold',sans-serif] font-bold leading-[37.627px]">Vaapty</span>
+            <span className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[37.627px]">{` `}</span>
+            <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[37.627px]">nasce exatamente para eliminar esses riscos.</span>
+          </p>
+          <div className="content-stretch flex gap-[50px] items-center justify-center relative rounded-[22.809px] shrink-0" data-node-id="48:31">
+            <div className="border border-[#37d754] border-solid content-stretch flex h-[87.482px] items-center justify-center relative rounded-[11.404px] shrink-0 w-[216.354px]" data-node-id="48:32">
+              <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[25.868px] relative shrink-0 text-[#161616] text-[24.928px] text-center tracking-[-1.2464px] whitespace-nowrap" data-node-id="48:33">
+                <p className="mb-0">{`Sem compra `}</p>
+                <p>de veículos</p>
+              </div>
+            </div>
+            <div className="border border-[#37d754] border-solid content-stretch flex h-[87.434px] items-center justify-center relative rounded-[11.404px] shrink-0 w-[214.403px]" data-node-id="48:34">
+              <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[25.85px] relative shrink-0 text-[#161616] text-[25.09px] text-center tracking-[-1.2545px] whitespace-nowrap" data-node-id="48:35">
+                <p className="mb-0">Sem capital preso</p>
+                <p>em ativos</p>
+              </div>
+            </div>
+            <div className="border border-[#37d754] border-solid content-stretch flex h-[87.482px] items-center justify-center relative rounded-[11.404px] shrink-0 w-[213.532px]" data-node-id="48:36">
+              <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#161616] text-[25.09px] text-center tracking-[-1.2545px] whitespace-nowrap" data-node-id="48:37">
+                <p className="leading-[25.85px]">Sem pátio cheio</p>
+              </div>
+            </div>
+          </div>
+          <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium h-[91.245px] leading-[43.271px] relative shrink-0 text-[#161616] text-[32.924px] text-center tracking-[-1.6462px] w-[1204.059px] whitespace-pre-wrap" data-node-id="53:39">
+            <p className="mb-0">{`Você atua como intermediador, usando tecnologia, `}</p>
+            <p>marca forte e uma rede ativa de compradores.</p>
+          </div>
+          <div className="bg-[#f2f2f2] content-stretch flex h-[54.559px] items-center justify-center relative rounded-[9.407px] shrink-0 w-[386.616px]" data-name="Botão" data-node-id="53:41">
+            <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[0px] relative shrink-0 text-[30.101px] text-black text-center tracking-[-0.903px] whitespace-nowrap" data-node-id="53:42">
+              <p className="mb-0">Fale com um consultor</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[800px] left-[calc(50%-0.5px)] top-[1852px] w-[1281px]" data-name="Dobra 3" data-node-id="65:47">
+        <div className="absolute bg-[#150424] h-[800px] left-[-639px] top-0 w-[2560px]" data-name="BG" data-node-id="63:45" />
+        <div className="absolute content-stretch flex h-[800px] items-center justify-center left-0 top-0 w-[1281px]" data-node-id="65:48">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-[1191.16px]" data-node-id="101:5">
+            <div className="content-stretch flex flex-col h-[80.898px] items-center justify-center relative shrink-0 w-full" data-name="Título" data-node-id="65:49">
+              <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[51.143px] relative shrink-0 text-[51.143px] text-center text-white tracking-[-2.5571px]" data-node-id="65:50">
+                Um modelo que já funciona, em escala nacional.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[70.076px] h-[649.051px] items-center justify-center relative shrink-0 w-[1122.094px]" data-node-id="101:4">
+              <div className="h-[586px] relative rounded-[15.836px] shrink-0 w-[485px]" data-node-id="65:51">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[15.836px]">
+                  <img alt="" className="absolute h-[107.17%] left-[-114.25%] max-w-none top-[-7.24%] w-[356.69%]" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[33.37px] h-[585.102px] items-start relative shrink-0 w-[406.785px]" data-node-id="85:165">
+                <div className="font-['Oswald:Medium',sans-serif] font-medium leading-[0] relative shrink-0 text-[0px] text-white tracking-[-5.162px] whitespace-nowrap" data-node-id="65:53">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[103.24px] mb-0 text-[103.24px]">+1 Bilhão</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] leading-[40.032px] text-[33.711px]">em veículos movimentados</p>
+                </div>
+                <div className="font-['Oswald:Medium',sans-serif] font-medium leading-[0] relative shrink-0 text-[0px] text-white tracking-[-5.162px] whitespace-nowrap" data-node-id="65:54">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[103.24px] mb-0 text-[103.24px]">+9 Milhões</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] leading-[40.032px] text-[33.711px]">faturados em uma única franquia</p>
+                </div>
+                <div className="font-['Oswald:Medium',sans-serif] font-medium leading-[0] relative shrink-0 text-[0px] text-white tracking-[-5.162px] whitespace-nowrap" data-node-id="65:56">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[103.24px] mb-0 text-[103.24px]">+350</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] leading-[40.032px] text-[33.711px]">franquias vendidas</p>
+                </div>
+                <div className="h-[90.348px] relative rounded-[13.477px] shrink-0 w-[401.352px]" data-node-id="65:58">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[13.477px] size-full" src={imgRectangle2} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[800px] left-[calc(50%+0.5px)] top-[2652px] w-[1281px]" data-name="Dobra 4" data-node-id="70:64">
+        <div className="absolute bg-white h-[800px] left-[-640px] top-0 w-[2560px]" data-name="BG" data-node-id="70:69" />
+        <div className="absolute content-stretch flex flex-col gap-[60px] h-[801px] items-center justify-center left-0 top-[-0.5px] w-[1281px]" data-node-id="70:65">
+          <div className="content-stretch flex flex-col gap-[10px] h-[189px] items-center justify-center relative shrink-0 text-[#150424] text-center w-[1281px]" data-name="Título" data-node-id="70:66">
+            <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[55px] tracking-[-2.75px] whitespace-nowrap" data-node-id="70:67">
+              <p className="leading-[55px]">Como funciona a franquia Vaapty na prática</p>
+            </div>
+            <div className="font-['Roboto_Condensed:Light',sans-serif] font-light h-[53px] leading-[55px] relative shrink-0 text-[35px] tracking-[0.35px] w-[1281px] whitespace-pre-wrap" data-node-id="70:74">
+              <p className="mb-0">Um processo simples, replicável e orientado a giro:</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[35px] items-center relative shrink-0" data-node-id="114:39">
+            <div className="content-stretch flex gap-[23px] h-[269px] items-center justify-center relative shrink-0 w-[1287px]" data-node-id="111:34">
+              <div className="bg-[#150424] content-stretch flex flex-col gap-[13.342px] h-[217px] items-center justify-end py-[22.237px] relative rounded-[14.825px] shrink-0 w-[305px]" data-node-id="70:78">
+                <div className="relative shrink-0 size-[103.034px]" data-node-id="70:84">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                </div>
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] relative shrink-0 text-[28.167px] text-center text-white tracking-[-1.4084px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:75">
+                  Captação do veículo
+                </p>
+                <div className="font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] relative shrink-0 text-[24.461px] text-center text-white tracking-[0.2446px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:77">
+                  <p className="mb-0">{`O cliente pessoa física `}</p>
+                  <p className="mb-0">{`procura sua unidade `}</p>
+                  <p className="mb-0">para vender o carro.</p>
+                  <p>&nbsp;</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[152.5px] text-[71.16px] text-center text-white top-[-19px] tracking-[-3.558px]" data-node-id="70:86">
+                  1
+                </p>
+              </div>
+              <div className="bg-[#150424] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="70:88">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="70:89">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.4084px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:90">
+                  Avaliação e leilão digital
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[0.2446px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:91">
+                  <p className="mb-0">{`O veículo é avaliado `}</p>
+                  <p>e inserido na plataforma Vaapty.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-3.558px]" data-node-id="70:92">
+                  2
+                </p>
+              </div>
+              <div className="bg-[#150424] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="70:103">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="70:104">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.4084px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:105">
+                  Rede de compradores ativos
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Oswald:Light',sans-serif] font-light h-[94.139px] leading-[0] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[0.2446px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:106">
+                  <p className="mb-0">
+                    <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[29.387px]">{`Mais de `}</span>
+                    <span className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[29.387px] tracking-[-0.48px]">{`30 mil lojistas `}</span>
+                  </p>
+                  <p className="mb-0">
+                    <span className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[29.387px] tracking-[-0.48px]">e concessionárias</span>
+                    <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[29.387px]">{` `}</span>
+                  </p>
+                  <p className="font-['Roboto_Condensed:Light',sans-serif] leading-[29.387px]">dão lances em tempo real.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-3.558px]" data-node-id="70:107">
+                  3
+                </p>
+              </div>
+              <div className="bg-[#150424] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="70:108">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="70:109">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.4084px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:110">
+                  Venda e comissão
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[0.2446px] w-[303.912px] whitespace-pre-wrap" data-node-id="70:111">
+                  <p className="mb-0">{`O melhor lance vence `}</p>
+                  <p>e você ganha pela intermediação.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-3.558px]" data-node-id="70:112">
+                  4
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[35px] h-[177px] items-center justify-center relative shrink-0 w-[1281px]" data-name="Título" data-node-id="81:118">
+              <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium h-[53px] leading-[55px] relative shrink-0 text-[#150424] text-[55px] text-center tracking-[-2.75px] w-[1281px] whitespace-pre-wrap" data-node-id="81:119">
+                Simples, rápido e escalável.
+              </p>
+              <div className="bg-[#150424] content-stretch flex flex-col h-[75px] items-center justify-center relative rounded-[10px] shrink-0 w-[597px]" data-name="BOTÃO" data-node-id="81:121">
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[53px] leading-[55px] relative shrink-0 text-[35px] text-center text-white tracking-[-1.75px] w-[547px] whitespace-pre-wrap" data-node-id="81:120">
+                  Saiba mais sobre nosso modelo de negócio
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[801px] left-[calc(50%+0.5px)] top-[3452px] w-[1281px]" data-name="Dobra 5" data-node-id="108:3">
+        <div className="absolute bg-[#f3f2f6] h-[800px] left-[-640px] top-[-1px] w-[2560px]" data-name="BG" data-node-id="101:6" />
+        <div className="absolute content-stretch flex flex-col gap-[45px] h-[800px] items-center justify-center left-0 top-[-1px] w-[1281px]" data-node-id="190:254">
+          <div className="content-stretch flex flex-col h-[171px] items-center relative shrink-0 w-full" data-node-id="108:4">
+            <div className="content-stretch flex flex-col gap-[23px] h-[164px] items-center relative shrink-0 text-[#150424] text-center w-[1281px] whitespace-nowrap" data-name="Título" data-node-id="108:5">
+              <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[55px] tracking-[-2.75px]" data-node-id="108:6">
+                <p className="leading-[55px]">Por que investir na Vaapty?</p>
+              </div>
+              <div className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[42px] relative shrink-0 text-[35px] tracking-[0.35px]" data-node-id="108:7">
+                <p className="mb-0">{`Não é sobre “ter uma franquia”. `}</p>
+                <p>É sobre ter controle financeiro e previsibilidade.</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[28.775px] items-center justify-center relative shrink-0 w-[1065px]" data-node-id="124:101">
+            <div className="content-stretch flex flex-col h-[75px] items-start justify-center pb-[3px] relative rounded-[18.548px] shrink-0 w-full" data-node-id="108:23">
+              <div className="content-stretch flex gap-[12.511px] items-center mb-[-3px] relative shrink-0" data-node-id="121:58">
+                <div className="bg-[#150424] shrink-0 size-[17.516px]" data-node-id="121:57" />
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[43.789px] leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px] w-[260.23px] whitespace-pre-wrap" data-node-id="108:25">
+                  Sem estoque próprio
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6.256px] items-start mb-[-3px] relative shrink-0" data-node-id="121:55">
+                <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px] relative shrink-0 text-[#150424] text-[30.604px] tracking-[0.306px]" data-node-id="108:26">
+                  Menos risco, menos custo fixo e mais liquidez.
+                </p>
+                <div className="flex h-[6.022px] items-center justify-center relative shrink-0 w-[971px]">
+                  <div className="flex-none rotate-[-0.36deg]">
+                    <div className="h-0 relative w-[971.019px]" data-node-id="121:42">
+                      <div className="absolute inset-[-2.5px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[75px] items-start justify-center pb-[3px] relative rounded-[18.548px] shrink-0 w-full" data-node-id="124:59">
+              <div className="content-stretch flex gap-[12.511px] items-center mb-[-3px] relative shrink-0 w-[290.257px]" data-node-id="124:60">
+                <div className="bg-[#150424] shrink-0 size-[17.516px]" data-node-id="124:61" />
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[35px] leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px] w-[260px] whitespace-pre-wrap" data-node-id="124:62">
+                  Margem de até 40%
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6.256px] items-start mb-[-3px] relative shrink-0" data-node-id="124:63">
+                <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px] relative shrink-0 text-[#150424] text-[30.604px] tracking-[0.306px]" data-node-id="124:64">
+                  Modelo de intermediação muito mais rentável que compra e revenda tradicional.
+                </p>
+                <div className="flex h-[6.022px] items-center justify-center relative shrink-0 w-[971px]">
+                  <div className="flex-none rotate-[-0.36deg]">
+                    <div className="h-0 relative w-[971.019px]" data-node-id="124:65">
+                      <div className="absolute inset-[-2.5px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[75px] items-start justify-center pb-[3px] relative rounded-[18.548px] shrink-0 w-full" data-node-id="124:66">
+              <div className="content-stretch flex gap-[12.511px] items-center mb-[-3px] relative shrink-0" data-node-id="124:67">
+                <div className="bg-[#150424] shrink-0 size-[17.516px]" data-node-id="124:68" />
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[35px] leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px] w-[260px] whitespace-pre-wrap" data-node-id="124:69">
+                  Payback previsível
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6.256px] items-start mb-[-3px] relative shrink-0" data-node-id="124:70">
+                <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px] relative shrink-0 text-[#150424] text-[30.604px] tracking-[0.306px]" data-node-id="124:71">
+                  Retorno estimado em até 6 meses, com break-even entre 60 e 90 dias.
+                </p>
+                <div className="flex h-[6.022px] items-center justify-center relative shrink-0 w-[971px]">
+                  <div className="flex-none rotate-[-0.36deg]">
+                    <div className="h-0 relative w-[971.019px]" data-node-id="124:72">
+                      <div className="absolute inset-[-2.5px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[75px] items-start justify-center pb-[3px] relative rounded-[18.548px] shrink-0 w-full" data-node-id="124:73">
+              <div className="content-stretch flex gap-[12.511px] items-center mb-[-3px] relative shrink-0" data-node-id="124:74">
+                <div className="bg-[#150424] shrink-0 size-[17.516px]" data-node-id="124:75" />
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[35px] leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px] w-[260px] whitespace-pre-wrap" data-node-id="124:76">
+                  Marca consolidada
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6.256px] items-start mb-[-3px] relative shrink-0" data-node-id="124:77">
+                <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px] relative shrink-0 text-[#150424] text-[30.604px] tracking-[0.306px]" data-node-id="124:78">
+                  Uma das franquias automotivas mais reconhecidas do país.
+                </p>
+                <div className="flex h-[6.022px] items-center justify-center relative shrink-0 w-[971px]">
+                  <div className="flex-none rotate-[-0.36deg]">
+                    <div className="h-0 relative w-[971.019px]" data-node-id="124:79">
+                      <div className="absolute inset-[-2.5px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[75px] items-start justify-center pb-[3px] relative rounded-[18.548px] shrink-0 w-full" data-node-id="124:80">
+              <div className="content-stretch flex gap-[12.511px] items-center mb-[-3px] relative shrink-0" data-node-id="124:81">
+                <div className="bg-[#150424] shrink-0 size-[17.516px]" data-node-id="124:82" />
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[35px] leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px] w-[308px] whitespace-pre-wrap" data-node-id="124:83">
+                  Investimento acessível
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[6.256px] items-start mb-[-3px] relative shrink-0" data-node-id="124:84">
+                <p className="font-['Road_Rage:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[#150424] text-[30.604px] tracking-[0.306px]" data-node-id="124:85">
+                  <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px]">{`A partir de `}</span>
+                  <span className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[36.767px]">R$130 mil</span>
+                  <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[36.767px]">, com planos flexíveis.</span>
+                </p>
+                <div className="flex h-[6.022px] items-center justify-center relative shrink-0 w-[971px]">
+                  <div className="flex-none rotate-[-0.36deg]">
+                    <div className="h-0 relative w-[971.019px]" data-node-id="124:86">
+                      <div className="absolute inset-[-2.5px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#f3f2f6] h-[800px] left-0 top-[4252px] w-[2560px]" data-name="BG" data-node-id="125:117" />
+      <div className="-translate-x-1/2 absolute h-[800px] left-[calc(50%-0.5px)] top-[4248px] w-[1281px]" data-name="Dobra 6" data-node-id="124:102">
+        <div className="absolute bg-[#f3f2f6] h-[800px] left-[-639px] top-0 w-[2560px]" data-name="BG" data-node-id="190:259" />
+        <div className="absolute content-stretch flex flex-col gap-[100px] h-[800px] items-start justify-center left-[87px] overflow-clip top-0 w-[642px]" data-node-id="125:185">
+          <div className="content-stretch flex flex-col gap-[30px] h-[196px] items-start relative shrink-0 text-[#3f1c66] whitespace-nowrap" data-node-id="190:261">
+            <div className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[60px] relative shrink-0 text-[51.143px] tracking-[-2.5571px]" data-node-id="124:106">
+              <p className="mb-0">{`Projeção de faturamento `}</p>
+              <p>realista</p>
+            </div>
+            <div className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[45px] relative shrink-0 text-[35px] tracking-[-1.05px]" data-node-id="125:115">
+              <p className="mb-0">{`Aqui você fatura desde o primeiro dia, pois `}</p>
+              <p>não depende de estoque ou ciclos longos.</p>
+            </div>
+          </div>
+          <div className="bg-[#3f1c66] content-stretch flex flex-col h-[75px] items-center justify-center relative rounded-[10px] shrink-0 w-[339px]" data-name="BOTÃO" data-node-id="135:271">
+            <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[55px] relative shrink-0 text-[#f3f2f6] text-[35px] tracking-[-1.75px]" data-node-id="135:272">
+              Entenda como funciona
+            </p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col h-[630px] items-start justify-center left-[779px] top-[85px] w-[415px]" data-node-id="127:262">
+          <div className="content-stretch flex flex-col h-[595px] items-start overflow-clip relative shrink-0 w-[402px]" data-node-id="127:257">
+            <div className="content-stretch flex flex-col gap-[24px] h-[97.649px] items-start relative rounded-[13.22px] shrink-0 w-[366.362px]" data-node-id="127:258">
+              <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="127:259">
+                <div className="font-['Oswald:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-[#3f1c66] text-[0px] tracking-[-1.2559px] whitespace-nowrap" data-node-id="127:261">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[72.762px] mb-0 text-[72.762px]">R$ 179 mil</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[32px] text-[23.759px]">De Média de Investimento Inicial</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col h-[97.649px] items-start relative shrink-0" data-node-id="127:263">
+                <div className="font-['Oswald:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-[#3f1c66] text-[0px] tracking-[-1.2559px] whitespace-nowrap" data-node-id="127:264">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[72.762px] mb-0 text-[72.762px]">Royalties</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[32px] text-[23.759px]">Fixos por Transação</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col h-[97.649px] items-start relative shrink-0 w-full" data-node-id="127:265">
+                <div className="font-['Oswald:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-[#3f1c66] text-[0px] tracking-[-1.2559px] whitespace-nowrap" data-node-id="127:266">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[72.762px] mb-0 text-[72.762px]">60 a 90 dias</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[32px] text-[23.759px]">De Equilíbrio Operacional</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col h-[97.649px] items-start relative shrink-0 w-full" data-node-id="127:267">
+                <div className="font-['Oswald:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-[#3f1c66] text-[0px] tracking-[-1.2559px] whitespace-nowrap" data-node-id="127:268">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[72.762px] mb-0 text-[72.762px]">R$ 3 milhões</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[32px] text-[23.759px]">De Potencial de Faturamento anual</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col h-[97.649px] items-start relative shrink-0 w-full" data-node-id="127:269">
+                <div className="font-['Oswald:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-[#3f1c66] text-[0px] tracking-[-1.2559px] whitespace-nowrap" data-node-id="127:270">
+                  <p className="font-['Roboto_Condensed:Black',sans-serif] font-black leading-[72.762px] mb-0 text-[72.762px]">20% a 40%</p>
+                  <p className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[32px] text-[23.759px]">De Lucro Líquido Estimado</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[800px] left-[calc(50%-0.5px)] top-[5050px] w-[1281px]" data-name="Dobra 7" data-node-id="152:2">
+        <div className="absolute bg-gradient-to-b from-[#150424] h-[800px] left-[-639px] to-[#3f1c66] top-0 w-[2560px]" data-name="BG" data-node-id="196:262" />
+        <div className="absolute content-stretch flex flex-col gap-[83px] h-[683px] items-center justify-center left-0 top-[50px] w-[1281px]" data-node-id="212:279">
+          <div className="content-stretch flex flex-col gap-[10px] h-[126px] items-center leading-[55px] relative shrink-0 text-center text-white w-full" data-name="Título" data-node-id="163:2">
+            <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center relative shrink-0 text-[55px] tracking-[-2.75px] whitespace-nowrap" data-node-id="163:3">
+              <p className="mb-0">{`Você não compra uma marca. `}</p>
+              <p>Você entra em um sistema.</p>
+            </div>
+            <p className="font-['Roboto_Condensed:Light',sans-serif] font-light relative shrink-0 text-[35px] tracking-[0.35px]" data-node-id="163:4">
+              A Vaapty atua de forma contínua na operação do franqueado.
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-center relative rounded-[56.558px] shrink-0" data-node-id="153:112">
+            <div className="content-stretch flex items-center justify-center relative rounded-[56.558px] shrink-0" data-node-id="153:79">
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-[330px]" data-node-id="153:25">
+                <div className="bg-gradient-to-r content-stretch flex from-[#150424] items-center justify-center px-[70.698px] py-[16.261px] relative rounded-tl-[14.14px] shrink-0 to-[#3f1c66] w-full" data-name="Header" data-node-id="152:21">
+                  <p className="font-['Oswald:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[24.744px] text-center text-white tracking-[-1.2372px] uppercase" data-node-id="152:22">
+                    Recursos
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:23">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] tracking-[-1.25px]" data-node-id="153:24">
+                    Suporte Contínuo Especializado
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:26">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] text-center tracking-[-1.25px]" data-node-id="153:27">
+                    Capacitação de Equipe
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:28">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] text-center tracking-[-1.25px]" data-node-id="153:29">
+                    Software de Gestão Integrado
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:30">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] text-center tracking-[-1.25px]" data-node-id="153:31">
+                    Reuniões de Performance
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:32">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] text-center tracking-[-1.25px]" data-node-id="153:33">
+                    Estratégias Avançadas de Vendas
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative rounded-bl-[14.14px] shrink-0 w-full" data-name="Footer" data-node-id="153:34">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] text-center tracking-[-1.25px]" data-node-id="153:35">
+                    Relatórios de Vendas
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="153:113">
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-[280px]" data-node-id="153:114">
+                <div className="bg-gradient-to-r content-stretch flex from-[#3f1c66] items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 to-[#3f1c66] via-[#150424] via-[50.481%] w-full" data-name="Header" data-node-id="153:115">
+                  <p className="font-['Oswald:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[24.744px] text-center text-white tracking-[-1.2372px] uppercase" data-node-id="153:116">
+                    Vaapty
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:117">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:267">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:119">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:268">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:121">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:269">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:123">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:270">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:125">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:271">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:127">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="210:272">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="153:129">
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-[280px]" data-node-id="153:130">
+                <div className="bg-gradient-to-r content-stretch flex from-[#3f1c66] items-center justify-center px-[70.698px] py-[16.261px] relative rounded-tr-[14.14px] shrink-0 to-[#150424] w-full" data-name="Header" data-node-id="153:131">
+                  <p className="font-['Oswald:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[24.744px] text-center text-white tracking-[-1.2372px] uppercase" data-node-id="153:132">
+                    Concorrência
+                  </p>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:133">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:273">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:135">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:274">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle9} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:137">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:275">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle10} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:139">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:276">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle10} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="153:141">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:277">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle10} />
+                  </div>
+                </div>
+                <div className="bg-[#f3f2f6] border-[0.53px] border-black border-solid content-stretch flex items-center justify-center px-[70.698px] py-[16.261px] relative rounded-br-[14.14px] shrink-0 w-full" data-name="Footer" data-node-id="153:143">
+                  <div className="h-[29px] relative shrink-0 w-[35px]" data-node-id="212:278">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle10} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[804px] left-[calc(50%+0.5px)] top-[5850px] w-[1281px]" data-name="Dobra 8" data-node-id="165:2">
+        <div className="absolute bg-gradient-to-t from-[#150424] h-[803px] left-[-640px] to-[#3f1c66] top-[-3px] w-[2560px]" data-name="BG" data-node-id="212:281" />
+        <div className="absolute content-stretch flex flex-col gap-[40px] h-[801px] items-center justify-center left-0 top-0 w-[1281px]" data-node-id="165:3">
+          <div className="content-stretch flex flex-col gap-[10px] h-[153px] items-center relative shrink-0 text-center text-white w-[1281px]" data-name="Título" data-node-id="165:4">
+            <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[55px] tracking-[-2.75px] whitespace-nowrap" data-node-id="165:5">
+              <p className="leading-[55px]">Depoimentos de clientes reais:</p>
+            </div>
+            <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[55px] relative shrink-0 text-[35px] tracking-[0.35px]" data-node-id="165:6">
+              O que nossos Franqueados dizem sobre a Vaapty.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0" data-node-id="165:7">
+            <div className="content-stretch flex gap-[23px] h-[269px] items-center justify-center relative shrink-0 w-[1287px]" data-node-id="165:8">
+              <div className="bg-[#a237d7] content-stretch flex flex-col gap-[13.342px] h-[217px] items-center justify-end py-[22.237px] relative rounded-[14.825px] shrink-0 w-[305px]" data-node-id="165:9">
+                <div className="relative shrink-0 size-[103.034px]" data-node-id="165:10">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                </div>
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] relative shrink-0 text-[28.167px] text-center text-white tracking-[-1.1267px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:11">
+                  Captação do veículo
+                </p>
+                <div className="font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] relative shrink-0 text-[24.461px] text-center text-white tracking-[-0.9784px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:12">
+                  <p className="mb-0">{`O cliente pessoa física `}</p>
+                  <p className="mb-0">{`procura sua unidade `}</p>
+                  <p className="mb-0">para vender o carro.</p>
+                  <p>&nbsp;</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[152.5px] text-[71.16px] text-center text-white top-[-19px] tracking-[-2.8464px]" data-node-id="165:13">
+                  1
+                </p>
+              </div>
+              <div className="bg-[#a237d7] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="165:14">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="165:15">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.1267px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:16">
+                  Avaliação e leilão digital
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[-0.9784px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:17">
+                  <p className="mb-0">{`O veículo é avaliado e inserido `}</p>
+                  <p>na plataforma Vaapty.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-2.8464px]" data-node-id="165:18">
+                  2
+                </p>
+              </div>
+              <div className="bg-[#a237d7] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="165:19">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="165:20">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.1267px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:21">
+                  Rede de compradores ativos
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Oswald:Light',sans-serif] font-light h-[94.139px] leading-[0] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[-0.64px] tracking-[-0.9784px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:22">
+                  <p className="mb-0">
+                    <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[29.387px]">{`Mais de `}</span>
+                    <span className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[29.387px]">{`30 mil lojistas `}</span>
+                  </p>
+                  <p className="mb-0">
+                    <span className="font-['Roboto_Condensed:Medium',sans-serif] font-medium leading-[29.387px]">e concessionárias</span>
+                    <span className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[29.387px]">{` dão lances `}</span>
+                  </p>
+                  <p className="font-['Roboto_Condensed:Light',sans-serif] leading-[29.387px]">em tempo real.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-2.8464px]" data-node-id="165:23">
+                  3
+                </p>
+              </div>
+              <div className="bg-[#a237d7] content-stretch flex flex-col gap-[13.342px] h-[231.528px] items-center justify-center py-[22.237px] relative rounded-[14.825px] shrink-0 w-[304.265px]" data-node-id="165:24">
+                <div className="-translate-x-1/2 absolute left-[calc(50%-0.22px)] size-[103.034px] top-[-51.89px]" data-node-id="165:25">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[25.944px] leading-[29.387px] left-[151.96px] text-[28.167px] text-center text-white top-[64.49px] tracking-[-1.1267px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:26">
+                  Venda e comissão
+                </p>
+                <div className="-translate-x-1/2 absolute font-['Roboto_Condensed:Light',sans-serif] font-light h-[94.139px] leading-[29.387px] left-[151.96px] text-[24.461px] text-center text-white top-[103.77px] tracking-[-0.9784px] w-[303.912px] whitespace-pre-wrap" data-node-id="165:27">
+                  <p className="mb-0">{`O melhor lance vence e você `}</p>
+                  <p>ganha pela intermediação.</p>
+                </div>
+                <p className="-translate-x-1/2 absolute font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[29.387px] left-[calc(50%-1.88px)] text-[71.16px] text-center text-white top-[-17.9px] tracking-[-2.8464px]" data-node-id="165:28">
+                  4
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[177px] items-center justify-center relative shrink-0 w-[1281px]" data-name="Título" data-node-id="165:29">
+              <div className="bg-[#a237d7] content-stretch flex flex-col h-[75px] items-center justify-center relative rounded-[10px] shrink-0 w-[597px]" data-name="BOTÃO" data-node-id="165:31">
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[53px] leading-[55px] relative shrink-0 text-[35px] text-center text-white tracking-[-1.75px] w-[547px] whitespace-pre-wrap" data-node-id="165:32">
+                  Quero ser um franqueado de sucesso
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[567px] left-1/2 top-[6654px] w-[1280px]" data-name="Dobra 9" data-node-id="169:36">
+        <div className="absolute bg-white h-[572px] left-[-640px] top-[-5px] w-[2560px]" data-name="BG" data-node-id="217:314" />
+        <div className="absolute content-stretch flex flex-col gap-[114px] h-[572px] items-center justify-center left-0 top-[-5px]" data-node-id="175:92">
+          <div className="content-stretch flex flex-col h-[91px] items-center justify-end relative shrink-0 w-[1281px]" data-name="Título" data-node-id="169:38">
+            <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[55px] text-black text-center tracking-[-2.75px] whitespace-nowrap" data-node-id="169:39">
+              <p className="leading-[55px]">Vaapty na Mídia</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[23px] h-[253px] items-start justify-center relative shrink-0 w-[1097px]" data-node-id="169:91">
+            <div className="content-stretch flex flex-col h-[466px] items-center relative shrink-0 w-[380px]" data-node-id="169:41">
+              <div className="content-stretch flex flex-col gap-[9px] h-[219px] items-start justify-center relative rounded-[18.548px] shrink-0 w-[297px]" data-node-id="169:42">
+                <div className="content-stretch flex flex-col gap-[18px] items-center justify-center relative shrink-0" data-node-id="169:43">
+                  <div className="h-[37px] relative shrink-0 w-[235px]" data-node-id="169:44">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle3} />
+                  </div>
+                  <div className="h-0 relative shrink-0 w-[291px]" data-node-id="169:48">
+                    <div className="absolute inset-[-2.5px_0_0_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="169:46">
+                  <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[0] relative shrink-0 text-[30.604px] text-black text-center tracking-[0.306px] w-[313px] whitespace-pre-wrap" data-node-id="169:47">
+                    <span className="leading-[36.767px]">“</span>
+                    <span className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[36.767px]">{`Depois de quebrar, eles criaram uma "imobiliária de carros" que vende veículos em 40 minutos.`}</span>
+                    <span className="leading-[36.767px]">”</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[466px] items-center relative shrink-0 w-[380px]" data-node-id="169:77">
+              <div className="content-stretch flex flex-col gap-[12px] h-[219px] items-start justify-center relative rounded-[18.548px] shrink-0 w-[297px]" data-node-id="169:78">
+                <div className="content-stretch flex flex-col gap-[12.511px] items-center justify-center relative shrink-0" data-node-id="169:79">
+                  <div className="h-[45px] relative shrink-0 w-[235px]" data-node-id="169:80">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle4} />
+                  </div>
+                  <div className="h-0 relative shrink-0 w-[291px]" data-node-id="169:81">
+                    <div className="absolute inset-[-2.5px_0_0_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="169:82">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[36.767px] relative shrink-0 text-[30.604px] text-black text-center tracking-[0.306px] w-[326px] whitespace-pre-wrap" data-node-id="169:83">
+                    “Vaapty inova no mercado de franquias com modelo C2B e movimenta 1 bi com veículos usados”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col h-[466px] items-center relative shrink-0 w-[380px]" data-node-id="169:84">
+              <div className="content-stretch flex flex-col gap-[12px] h-[219px] items-start relative rounded-[18.548px] shrink-0 w-[297px]" data-node-id="169:85">
+                <div className="content-stretch flex flex-col gap-[12px] h-[59px] items-center justify-center relative shrink-0" data-node-id="169:86">
+                  <div className="h-[45px] relative shrink-0 w-[235px]" data-node-id="169:87">
+                    <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle5} />
+                  </div>
+                  <div className="h-0 relative shrink-0 w-[291px]" data-node-id="169:88">
+                    <div className="absolute inset-[-2.5px_0_0_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="169:89">
+                  <div className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[36.767px] relative shrink-0 text-[30.604px] text-black text-center tracking-[0.306px] w-[328px] whitespace-pre-wrap" data-node-id="169:90">
+                    <p className="mb-0">{`“Eles criaram um negócio disruptivo no mercado `}</p>
+                    <p className="mb-0">{`de seminovos e mira `}</p>
+                    <p>nas fintechs para faturar R$1.8 bi em 2025”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[800px] left-1/2 top-[7221px] w-[1280px]" data-name="Dobra 10" data-node-id="175:93">
+        <div className="absolute h-[801px] left-[-640px] top-0 w-[2560px]" data-name="BG" data-node-id="217:315">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBg1} />
+        </div>
+        <div className="absolute content-stretch flex flex-col h-[706px] items-start justify-center left-[676px] top-[47px] w-[564px]" data-node-id="178:148">
+          <div className="content-stretch flex flex-col gap-[50px] items-start relative shrink-0" data-node-id="178:154">
+            <div className="content-stretch flex flex-col gap-[23px] items-start relative shrink-0" data-node-id="178:153">
+              <div className="content-stretch flex flex-col gap-[23px] h-[256px] items-start relative shrink-0 text-[#150424] w-[631px]" data-name="Título" data-node-id="175:95">
+                <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[55px] relative shrink-0 text-[55px] tracking-[-2.75px] whitespace-nowrap" data-node-id="175:96">
+                  <p className="mb-0">{`Pode ser a sua última `}</p>
+                  <p>oportunidade</p>
+                </div>
+                <div className="font-['Roboto_Condensed:Light',sans-serif] font-light h-[117px] leading-[42px] relative shrink-0 text-[35px] tracking-[0.35px] w-[657px] whitespace-pre-wrap" data-node-id="175:97">
+                  <p className="mb-0">{`As condições de expansão são limitadas `}</p>
+                  <p className="mb-0">{`por região para proteger a rentabilidade `}</p>
+                  <p>dos franqueados.</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[23px] items-start justify-center relative shrink-0 w-[641px]" data-node-id="175:98">
+                <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[55px] relative shrink-0 text-[#150424] text-[35px] tracking-[-1.75px]" data-node-id="178:152">
+                  Se você busca:
+                </p>
+                <div className="content-stretch flex flex-col h-[37px] items-start justify-center relative rounded-[18.548px] shrink-0 w-[631px]" data-node-id="175:99">
+                  <div className="content-stretch flex gap-[12.511px] items-center relative shrink-0" data-node-id="175:100">
+                    <div className="relative shrink-0 size-[30px]" data-node-id="175:101">
+                      <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle6} />
+                    </div>
+                    <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px]" data-node-id="175:102">
+                      baixo risco operacional
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col h-[37px] items-start justify-center relative rounded-[18.548px] shrink-0 w-[631px]" data-node-id="178:134">
+                  <div className="content-stretch flex gap-[12.511px] items-center relative shrink-0" data-node-id="178:135">
+                    <div className="relative shrink-0 size-[30px]" data-node-id="178:136">
+                      <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle6} />
+                    </div>
+                    <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px]" data-node-id="178:137">
+                      previsibilidade financeira
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col h-[37px] items-start justify-center relative rounded-[18.548px] shrink-0 w-[631px]" data-node-id="178:141">
+                  <div className="content-stretch flex gap-[12.511px] items-center relative shrink-0" data-node-id="178:142">
+                    <div className="relative shrink-0 size-[30px]" data-node-id="178:143">
+                      <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgRectangle6} />
+                    </div>
+                    <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[36.767px] relative shrink-0 text-[#150424] text-[35.241px] tracking-[-1.762px]" data-node-id="178:144">
+                      escala com suporte real
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[#651c83] content-stretch flex flex-col h-[75px] items-center justify-center relative rounded-[10px] shrink-0 w-[376px]" data-name="BOTÃO" data-node-id="178:149">
+              <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold h-[53px] leading-[55px] relative shrink-0 text-[35px] text-center text-white tracking-[-1.75px] w-[547px] whitespace-pre-wrap" data-node-id="178:150">
+                Quero mais informações
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[1268px] left-[calc(50%-0.5px)] top-[8022px] w-[1281px]" data-name="Dobra 11" data-node-id="178:155">
+        <div className="absolute bg-[#f3f2f6] h-[1269px] left-[-639px] top-0 w-[2560px]" data-name="BG" data-node-id="224:344" />
+        <div className="absolute content-stretch flex flex-col gap-[50px] h-[1138px] items-center left-0 top-[130px] w-[1281px]" data-node-id="224:345">
+          <div className="content-stretch flex flex-col gap-[10px] h-[126px] items-center relative shrink-0 text-[#150424] text-center w-full" data-name="Título" data-node-id="178:156">
+            <div className="flex flex-col font-['Roboto_Condensed:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[55px] tracking-[-2.75px] whitespace-nowrap" data-node-id="178:157">
+              <p className="leading-[55px]">Essa Franquia foi feita para você.</p>
+            </div>
+            <p className="font-['Roboto_Condensed:Light',sans-serif] font-light leading-[55px] relative shrink-0 text-[35px] tracking-[0.35px]" data-node-id="178:158">
+              Preencha o formulário e receba a apresentação completa
+            </p>
+          </div>
+          <div className="bg-[#f5f5f5] content-stretch flex h-[764px] items-center py-[50px] relative rounded-[20px] shadow-[0px_0px_20.1px_0px_rgba(0,0,0,0.25)] shrink-0 w-[737px]" data-node-id="178:159">
+            <div className="content-stretch flex flex-col h-[764px] items-start justify-center relative rounded-[56.558px] shrink-0 w-[737px]" data-node-id="178:160">
+              <div className="content-stretch flex flex-col gap-[13px] h-[761px] items-start justify-center px-[40px] py-[30px] relative shrink-0 w-full" data-node-id="178:161">
+                <div className="content-stretch flex flex-col gap-[7.07px] items-start justify-center p-[10px] relative shrink-0 w-full" data-name="Footer" data-node-id="178:164">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] tracking-[-1.25px]" data-node-id="178:165">
+                    Nome:
+                  </p>
+                  <div className="border border-[#a7a7a7] border-solid h-[47px] rounded-[8px] shrink-0 w-full" data-node-id="178:208" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[7.07px] items-start justify-center p-[10px] relative shrink-0 w-full" data-name="Footer" data-node-id="178:209">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] tracking-[-1.25px]" data-node-id="178:210">
+                    E-mail:
+                  </p>
+                  <div className="border border-[#a7a7a7] border-solid h-[47px] rounded-[8px] shrink-0 w-full" data-node-id="178:211" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[7.07px] items-start justify-center p-[10px] relative shrink-0 w-full" data-name="Footer" data-node-id="178:212">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] tracking-[-1.25px]" data-node-id="178:213">
+                    Telefone:
+                  </p>
+                  <div className="border border-[#a7a7a7] border-solid h-[47px] rounded-[8px] shrink-0 w-full" data-node-id="178:214" />
+                </div>
+                <div className="content-stretch flex flex-col gap-[7.07px] h-[227px] items-start justify-center px-[10px] py-[16.261px] relative shrink-0 w-full" data-name="Footer" data-node-id="178:215">
+                  <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#0b0b0b] text-[25px] tracking-[-1.25px]" data-node-id="178:216">
+                    Capital Para Investimento:
+                  </p>
+                  <div className="content-stretch flex flex-col gap-[15px] h-[183px] items-start justify-center overflow-clip py-[10px] relative shrink-0 w-full" data-node-id="178:225">
+                    <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="178:235">
+                      <div className="bg-[#f3f2f6] shadow-[1px_1px_2px_0px_rgba(0,0,0,0.25)] shrink-0 size-[17.516px]" data-node-id="178:233" />
+                      <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[25px] text-black tracking-[-1.25px]" data-node-id="178:227">
+                        Menos de R$130 mil
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="178:238">
+                      <div className="bg-[#f3f2f6] shadow-[1px_1px_2px_0px_rgba(0,0,0,0.25)] shrink-0 size-[17.516px]" data-node-id="178:237" />
+                      <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[25px] text-black tracking-[-1.25px]" data-node-id="178:228">
+                        De R$130 mil a R$200 mil
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="178:240">
+                      <div className="bg-[#f3f2f6] shadow-[1px_1px_2px_0px_rgba(0,0,0,0.25)] shrink-0 size-[17.516px]" data-node-id="178:239" />
+                      <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[25px] text-black tracking-[-1.25px]" data-node-id="178:229">
+                        De R$201 mil a R$300 mil
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="178:242">
+                      <div className="bg-[#f3f2f6] shadow-[1px_1px_2px_0px_rgba(0,0,0,0.25)] shrink-0 size-[17.516px]" data-node-id="178:241" />
+                      <p className="font-['Roboto_Condensed:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[25px] text-black tracking-[-1.25px]" data-node-id="178:230">
+                        Mais de R$300 mil
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#a237d7] content-stretch flex flex-col h-[45px] items-center justify-center px-[40px] relative rounded-[10px] shrink-0 w-[647px]" data-name="BOTÃO" data-node-id="178:243">
+                  <p className="font-['Roboto_Condensed:SemiBold',sans-serif] font-semibold leading-[55px] relative shrink-0 text-[28px] text-center text-white tracking-[-1.4px]" data-node-id="178:244">
+                    Enviar Dados
+                  </p>
+                </div>
+                <div className="font-['Roboto_Condensed:Light',sans-serif] font-['Roboto_Condensed:Regular',sans-serif] font-light font-normal leading-[0] relative shrink-0 text-[#3d3d3d] text-[0px] text-[20px] tracking-[-0.8px] whitespace-nowrap" data-node-id="178:246">
+                  <p className="mb-0">
+                    <span className="leading-[21px]">{`Ao tocar no botão, você aceita nossos `}</span>
+                    <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[21px] text-[#3d3d3d] underline" href="https://onovomercado.com/m10m-termos-de-uso/?src=v3_928f88c0-c6a9-4914-93ca-7d41075a231d_68c2f8e48cfc830af9794365_0">
+                      <span className="[text-decoration-skip-ink:none] decoration-solid leading-[21px]" href="https://onovomercado.com/m10m-termos-de-uso/?src=v3_928f88c0-c6a9-4914-93ca-7d41075a231d_68c2f8e48cfc830af9794365_0">{`Termos de Uso e Política de Privacidade `}</span>
+                    </a>
+                    <span className="leading-[21px]">{`, `}</span>
+                  </p>
+                  <p className="leading-[21px]">incluindo cookies e envio de comunicações.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#12031f] h-[20px] left-0 top-[800px] w-[2561px]" data-node-id="207:264" />
+      <div className="absolute bg-[#12031f] h-[20px] left-0 top-[1842px] w-[2561px]" data-node-id="207:266" />
+    </div>
+  );
+}
