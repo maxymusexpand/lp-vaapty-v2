@@ -469,7 +469,7 @@
 
                     <div class="form-group">
                         <label for="field_27">Quando você pretende assumir sua franquia?</label>
-                        <select id="field_27" name="field[27]" required class="form-select">
+                        <select id="field_27" name="field[27]" class="form-select">
                             <option value="" disabled selected>Selecione uma opção</option>
                             <option value="Imediatamente">Imediatamente</option>
                             <option value="Em até 30 dias">Em até 30 dias</option>
@@ -500,9 +500,9 @@
                     <!-- Campos hidden para UTM -->
                     <input type="hidden" name="field[2]" value="" />
                     <input type="hidden" name="field[3]" value="" />
-                    <input type="hidden" name="field[4]" value="" />
-                    <input type="hidden" name="field[5]" value="" />
-                    <input type="hidden" name="field[6]" value="" />
+                    <input type="hidden" name="field[39]" value="" />
+                    <input type="hidden" name="field[40]" value="" />
+                    <input type="hidden" name="field[38]" value="" />
 
                     <button type="submit" class="btn btn-submit">Enviar Dados</button>
 
@@ -515,6 +515,27 @@
     </div>
 
     <script src="script.js"></script>
+
+    <!-- Captura de parâmetros UTM -->
+    <script>
+        (function () {
+            var params = new URLSearchParams(window.location.search);
+            var map = {
+                "utm_source":   "field[2]",
+                "utm_medium":   "field[3]",
+                "utm_campaign": "field[39]",
+                "utm_content":  "field[40]",
+                "utm_term":     "field[38]"
+            };
+            Object.keys(map).forEach(function (param) {
+                var val = params.get(param);
+                if (val) {
+                    var el = document.querySelector('input[name="' + map[param] + '"]');
+                    if (el) el.value = val;
+                }
+            });
+        })();
+    </script>
 
     <!-- Scripts do Active Campaign -->
     <script>
